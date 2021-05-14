@@ -1,0 +1,72 @@
+
+:root {
+    --creo-primary-color : #05C1C3;
+    --creo-secondary-color : #242549;
+    --creo-background-color: #E5E5E5;
+    --creo-text-grey: #7E7E7E;
+    --creo-text-white: #FFFFFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    border-radius: 25px !important;
+    background-color: var(--creo-secondary-color) !important;
+    padding: 2.5rem;
+    line-height: 2 !important;
+    font-size: 18px !important;
+}
+
+button a {
+  color: var(--creo-text-white);
+  text-decoration: none;
+}
+
+span {
+    color: var(--creo-primary-color);
+    text-align: justify;
+}
+
+p {
+    font-size: 18px;
+    color: var(--creo-primary-color);
+    line-height: 2;
+}
+
+.creo-header {
+    font-size: 3.1rem;
+    font-weight: 900;
+}
+
+.creo-logo {
+    display: flex;
+    color: var(--creo-primary-color);
+    font-weight: 700;
+    margin-bottom: 3%;
+}
+
+.creo-logo h2 {
+    margin-top: 5%;
+}
+
+.creo-btn-connect {
+    position: absolute;
+    right: 2%;
+    top: 5%;
+}
+.creo-banner {
+    height: 400px;
+}
+
+.creo-copyright {
+    text-align: center;
+    margin-top: 7%;
+    font-size: 14px !important;
+}
