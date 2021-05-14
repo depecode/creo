@@ -19,14 +19,15 @@
 button {
     border-radius: 25px !important;
     background-color: var(--creo-secondary-color) !important;
-    padding: 2.5rem;
-    line-height: 2 !important;
-    font-size: 18px !important;
+   
 }
 
 button a {
   color: var(--creo-text-white);
   text-decoration: none;
+  padding: 2.5rem !important;
+  line-height: 2 !important;
+  font-size: 18px !important;
 }
 
 span {
@@ -61,9 +62,9 @@ p {
     right: 2%;
     top: 5%;
 }
-.creo-banner {
+/* .creo-banner {
     height: 400px;
-}
+} */
 
 .creo-copyright {
     text-align: center;
