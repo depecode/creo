@@ -51,6 +51,7 @@ p {
     color: var(--creo-primary-color);
     font-weight: 700;
     margin-bottom: 3%;
+    margin-left: -45px;
 }
 
 .creo-logo h2 {
@@ -59,12 +60,13 @@ p {
 
 .creo-btn-connect {
     position: absolute;
-    right: 2%;
+    right: -8%;
     top: 5%;
 }
-/* .creo-banner {
-    height: 400px;
-} */
+.creo-banner {
+    /* height: 400px; */
+    margin-left: 25%;
+}
 
 .creo-copyright {
     text-align: center;
