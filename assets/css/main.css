@@ -5,6 +5,11 @@
     --creo-background-color: #E5E5E5;
     --creo-text-grey: #7E7E7E;
     --creo-text-white: #FFFFFF;
+    --creo-gradient-color-one: #F6F6F6;
+    --creo-gradient-color-one: #F8F8F8;
+    --creo-gradient-color-two: #F9F9F9;
+    --creo-background-footer-color: #EEFEFE;
+    --creo-footer-color: #000000;
 }
 
 *{
@@ -40,15 +45,42 @@ p {
     color: var(--creo-primary-color);
     line-height: 2;
 }
+body{
+    background-image: url(../img/svg/creo-background-top-left.svg), url(../img/svg/creo-background-top-right.svg), url(../img/svg/creo-background-bottom.svg);
+    background-position: left top, top right, center bottom;
+    background-repeat: no-repeat;
+    /* background-size: ; */
+}
 
 .creo-header {
     font-size: 3.1rem;
     font-weight: 900;
 }
 
+.creo-navbar{
+    background-color: var(--creo-text-white) !important;
+    /* margin-bottom: 3%; */
+    margin-left: -5px;
+}
+
+.creo-navbar h2 {
+    color: var(--creo-primary-color);
+    font-weight: 700;
+    margin-left: -5%;
+    margin-right: 5%;
+}
+
+.creo-navbar a {
+    font-weight: 500;
+    color: var(--creo-footer-color) !important;
+}
+
+.creo-navbar a:hover, .creo-navbar a:focus, .creo-navbar a:active{
+    color: var(--creo-primary-color) !important;
+}
+
 .creo-logo {
     display: flex;
-    color: var(--creo-primary-color);
     font-weight: 700;
     margin-bottom: 3%;
     margin-left: -45px;
@@ -68,8 +100,18 @@ p {
     margin-left: 25%;
 }
 
+.creo-social-icon {
+    display: inline-block;
+}
+
+.creo-social-icon a {
+    margin: 0 10px;
+}
+
 .creo-copyright {
     text-align: center;
     margin-top: 7%;
     font-size: 14px !important;
+    background-color: var(--creo-background-footer-color);
+    color: var(--creo-footer-color) !important;
 }
